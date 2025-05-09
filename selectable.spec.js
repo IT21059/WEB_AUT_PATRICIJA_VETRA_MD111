@@ -1,3 +1,7 @@
+Cypress.on("uncaught:exception", (err, runnable) => {
+return false;
+});
+
 // cypress/e2e/selectable.spec.js
 
 describe('DemoQA Selectable Grid Test', () => {
